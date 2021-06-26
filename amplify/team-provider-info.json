@@ -10,6 +10,14 @@
       "StackName": "amplify-cryptoapp-local-164053",
       "StackId": "arn:aws:cloudformation:us-east-1:241446044698:stack/amplify-cryptoapp-local-164053/30bfe350-d6c7-11eb-b8d5-0e00cd5253c1",
       "AmplifyAppId": "d1231pob9krob4"
+    },
+    "categories": {
+      "function": {
+        "cryptofunction": {
+          "deploymentBucketName": "amplify-cryptoapp-local-164053-deployment",
+          "s3Key": "amplify-builds/cryptofunction-70663246553458636c4a-build.zip"
+        }
+      }
     }
   }
 }
