@@ -4,6 +4,11 @@
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
+    },
+    "cryptoalternative": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
     }
   },
   "api": {
@@ -14,6 +19,14 @@
         {
           "category": "function",
           "resourceName": "cryptofunction",
+          "attributes": [
+            "Name",
+            "Arn"
+          ]
+        },
+        {
+          "category": "function",
+          "resourceName": "cryptoalternative",
           "attributes": [
             "Name",
             "Arn"
